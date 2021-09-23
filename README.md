@@ -1,5 +1,7 @@
 # airflow-demo
 
+Presentation at https://docs.google.com/presentation/d/1Jdmyw0NX4spOnfQyAPXi-7I7XpZYCe2FHbx1UX8V-gQ/edit?usp=sharing 
+
 The bike trip demo can be found at https://github.com/danielbeach/AirflowVsDagster. It also includes the same pipeline in Dagster, if you're curious.
 
 ## Grouparoo-Airflow Demo
