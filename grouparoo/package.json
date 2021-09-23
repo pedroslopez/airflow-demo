@@ -1,0 +1,32 @@
+{
+  "author": "Your Name <email@example.com>",
+  "name": "airflow-test",
+  "description": "A Grouparoo Deployment",
+  "version": "0.0.1",
+  "license": "MPL-2.0",
+  "private": true,
+  "engines": {
+    "node": ">=12.0.0 <16.0.0"
+  },
+  "dependencies": {
+    "@grouparoo/core": "0.6.3",
+    "@grouparoo/csv": "0.6.3",
+    "@grouparoo/hubspot": "0.6.3",
+    "@grouparoo/postgres": "0.6.3",
+    "@grouparoo/ui-community": "0.6.3"
+  },
+  "scripts": {
+    "start": "cd node_modules/@grouparoo/core && ./bin/start"
+  },
+  "grouparoo": {
+    "plugins": [
+      "@grouparoo/csv",
+      "@grouparoo/hubspot",
+      "@grouparoo/postgres",
+      "@grouparoo/ui-community"
+    ]
+  },
+  "devDependencies": {
+    "@grouparoo/ui-config": "0.6.3"
+  }
+}

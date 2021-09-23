@@ -1,0 +1,13 @@
+{
+  "class": "App",
+  "id": "postgres",
+  "name": "Postgres",
+  "type": "postgres",
+  "options": {
+    "port": 5432,
+    "schema": "public",
+    "database": "airflow_test",
+    "password": "",
+    "user": ""
+  }
+}

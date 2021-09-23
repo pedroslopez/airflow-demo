@@ -1,0 +1,14 @@
+{
+  "id": "cool_people",
+  "class": "Group",
+  "type": "calculated",
+  "name": "Cool People",
+  "rules": [
+    {
+      "propertyId": "email",
+      "operation": {
+        "op": "exists"
+      }
+    }
+  ]
+}

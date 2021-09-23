@@ -1,0 +1,28 @@
+[
+  {
+    "class": "Source",
+    "id": "users",
+    "name": "Users",
+    "type": "postgres-table-import",
+    "appId": "postgres",
+    "options": {
+      "table": "profiles"
+    },
+    "mapping": {
+      "id": "userid"
+    }
+  },
+  {
+    "class": "Schedule",
+    "id": "users_schedule",
+    "name": "Users schedule",
+    "sourceId": "users",
+    "recurring": false,
+    "recurringFrequency": 0,
+    "confirmProfiles": true,
+    "options": {
+      "column": "updated_at"
+    },
+    "filters": []
+  }
+]

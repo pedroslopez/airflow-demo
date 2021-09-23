@@ -1,0 +1,15 @@
+{
+  "class": "Property",
+  "id": "ip_address",
+  "type": "string",
+  "key": "ip_address",
+  "sourceId": "users",
+  "unique": false,
+  "identifying": false,
+  "isArray": false,
+  "options": {
+    "aggregationMethod": "exact",
+    "column": "ip_address"
+  },
+  "filters": []
+}

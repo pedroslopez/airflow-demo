@@ -1,0 +1,18 @@
+{
+  "class": "Destination",
+  "id": "hubspot",
+  "name": "Hubspot",
+  "type": "hubspot-export",
+  "appId": "hubspot",
+  "groupId": "cool_people",
+  "syncMode": "sync",
+  "options": {},
+  "mapping": {
+    "email": "email",
+    "firstname": "first_name",
+    "lastname": "last_name"
+  },
+  "destinationGroupMemberships": {
+    "Cool People": "cool_people"
+  }
+}
